@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+*.so
+
+# Environments
+.venv/
+venv/
+env/
+
+# Tool runtime artifacts
+locklens_report.json
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets (never commit)
+*.token
+.env
